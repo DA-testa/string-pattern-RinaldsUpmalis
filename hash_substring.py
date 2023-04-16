@@ -18,10 +18,10 @@ def read_input():
         patern=input()
         text = input()
     elif data[0]=="F":
-        filename = "tests/"
-        filename = filename + input()
-        if filename[-1] == 'a':
-            return
+        filename = "tests/06"
+        #filename = filename + input()
+        #if filename[-1] == 'a':
+            #return
         with open(filename, 'r') as file:
             data = file.read()
             lines = data.split('\n')
